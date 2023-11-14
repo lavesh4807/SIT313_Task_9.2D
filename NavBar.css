@@ -1,0 +1,23 @@
+/* NavBar.css */
+
+.navbar {
+  background-color: #ffefef; 
+    color: #1b1919; /* White text color for links */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #060606;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 1000;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+  color: #ff6347; /* Reddish color on hover */
+}
